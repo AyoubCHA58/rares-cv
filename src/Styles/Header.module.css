@@ -1,0 +1,86 @@
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--drak-blue);
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    z-index: 300;
+}
+.todo_header{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_info {
+    display: flex;
+    align-items: center;
+}
+
+.header_nombre_correo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header_nombre_correo a{
+    width: fit-content;
+    padding: 2px;
+}
+
+.fotocv {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    background-color: black;
+}
+.header_nombre_correo a{
+    color: white;
+    text-decoration: none;
+}
+.nav_flags{
+    display: flex;
+}
+.flags {
+    display: flex;
+    gap: 10px;
+}
+
+.flag {
+    width: 40px;
+    cursor: pointer;
+    border: 1px solid var(--drak-blue);
+}
+/* .header::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 65%;
+        height: 1px;
+        background: rgba(255, 0, 0, 0.8);
+        box-shadow: 0 0 10px rgba(255, 0, 0, 1),
+            0 0 20px rgba(255, 0, 0, 1);
+        animation: neon 1s infinite alternate;
+    }
+    
+    @keyframes neon {
+        0% {
+            background: rgba(255, 0, 0, 0.6);
+            box-shadow: 0 0 5px rgba(255, 0, 0, 0.7),
+                0 0 10px rgba(255, 0, 0, 0.7),
+                0 0 15px rgba(255, 0, 0, 0.7)
+        }
+    
+        100% {
+            background: rgba(255, 0, 0, 0.9);
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.7),
+                0 0 30px rgba(255, 0, 0, 0.7),
+                0 0 40px rgba(255, 0, 0,0.7),
+                0 0 50px rgba(255, 0, 0, 0.7);
+        }
+    } */

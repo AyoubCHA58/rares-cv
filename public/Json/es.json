@@ -1,0 +1,157 @@
+{
+    "index": {
+        "element-1": "Contacto",
+        "element-2": "Experiencia",
+        "element-3": "Proyectos",
+        "element-4": "Títulos",
+        "element-5": "Frameworks",
+        "element-6": "Tecnologías",
+        "element-7": "Soft Skills",
+        "element-8": "Idiomas",
+        "element-9": "Extras"
+    },
+    "profile": {
+        "rol": "Desarrollador FullStack",
+        "description": "Especializado en desarrollo de software con amplia experiencia en diversas tecnologías. Titulado en Grado Superior de Desarrollo de Aplicaciones Web y con un nivel avanzado de inglés (B2/C1)."
+    },
+    "contact": {
+        "text": "Puedes ponerte en contacto conmigo mediante:",
+        "btn-linkedin": "Ir a Linkedin",
+        "btn-github": "Ir a GitHub",
+        "btn-download-cv": "Descargar CV"
+    },
+    "experience": {
+        "info":{
+            "title": "Experiencia",
+            "btn-url": "Visitar",
+            "btn-code": "Código"
+        },
+        "first-job": {
+            "title": "FontVenta",
+            "description": "En FontVenta, participé activamente en el desarrollo y mantenimiento de aplicaciones web back-end diseñadas para gestionar paginas de intranet. Utilicé tecnologías como .Net y Visual Basic para crear soluciones robustas que mejoraron la eficiencia operativa y la satisfacción del cliente.\n Colaboré estrechamente con el equipo de front-end para asegurar una integración fluida y trabajé con SQLServer Management Studio para gestionar bases de datos complejas. Además, implementé mejoras continuas y resolví problemas técnicos, garantizando un rendimiento óptimo.",
+            "frameworks": [
+                ".Net",
+                "SQLServer Management Studio",
+                "Visual Basic",
+                "JavaScript",
+                "Visual Studio"
+            ],
+            "url-image": ""
+        }
+    },
+    "projects": {
+        "info":{
+            "title": "Proyectos"
+        },
+        "GymBros-Zone": {
+            "title": "GymBros Zone",
+            "description": "GymBros Zone es una red social innovadora enfocada en el mundo del gimnasio y fitness, creada para conectar a entusiastas del ejercicio y promover un estilo de vida saludable.\n En GymBros Zone, los usuarios pueden compartir experiencias, intercambiar conocimientos y alcanzar sus metas.",
+            "frameworks": [
+                "Vue 3",
+                "Node.js",
+                "JavaScript",
+                "Supabase",
+                "Ionic",
+                "HTML",
+                "CSS"
+            ],
+            "url":"gymbroszone.com",
+            "url-github":"",
+            "url-image": "/Pictures/gymbroszone.png"
+        },
+        "PetPalace": {
+            "title": "PetPalace",
+            "description": "PetPalace es una plataforma web de adopción de animales, donde podrás explorar diversas mascotas en busca de un hogar.\n Una vez registrado, podrás ver el perfil de cada animal y aplicar filtros para buscar según tus preferencias. Cada perfil incluye un teléfono de contacto para facilitar la adopción.",
+            "frameworks": [
+                "Node.js",
+                "JavaScript",
+                "Firebase",
+                "Cordova",
+                "HTML",
+                "CSS"
+            ],
+            "url":"",
+            "url-github":"",
+            "url-image": "/Pictures/petpalace.png"
+        },
+        "DevCode": {
+            "title": "DevCode",
+            "description": "DevCode es un foro dedicado a programadores, diseñado para impulsar la interacción y el intercambio de conocimientos.\n En DevCode, los usuarios pueden publicar sus experiencias, resolver dudas y colaborar activamente en diversos temas relacionados con la programación.",
+            "frameworks": [
+                "PHP",
+                "MySQL",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "url":"",
+            "url-github":"",
+            "url-image": "/Pictures/devcode.png"
+        }
+    },
+    "Titles": {
+        "text": "Títulos",
+        "first-title":{
+            "title": "Tecnico Superior de desarrollo de Aplicaciones Web",
+            "center": "IES Gaspar Melchor de Jovellanos",
+            "date": "2022-2024"
+        },
+        "second-title":{
+            "title": "Bachillerato Científico-Tecnológico",
+            "center": "IES Dionisio Aguado",
+            "date": "2020-2022"
+        }
+    },
+"certificates": {
+        "text": "Certificates",
+        "first-certificate": {
+            "title": "JavaScript Avanzado",
+            "center": "OpenWebinars",
+            "by": "Ceo de OpenWebinars Manuel Agudo",
+            "hours": "12",
+            "url":"openwebinars.net/cert/bG1t"
+        },
+        "second-certificate": {
+            "title": "JavaScript Intermedio",
+            "center": "OpenWebinars",
+            "by": "Ceo de OpenWebinars Manuel Agudo",
+            "hours": "5",
+            "url":"openwebinars.net/cert/MQwk"
+        },
+        "third-certificate": {
+            "title": "JavaScript Básico",
+            "center": "OpenWebinars",
+            "by": "Ceo de OpenWebinars Manuel Agudo",
+            "hours": "5",
+            "url":"openwebinars.net/cert/fLnV"
+        },
+        "fourth-certificate": {
+            "title": ".NET Framework",
+            "center": "OpenWebinars",
+            "by": "Ceo de OpenWebinars Manuel Agudo",
+            "hours": "10",
+            "url":"openwebinars.net/cert/5YRU"
+        },
+        "fifth-certificate": {
+            "title": "SQL",
+            "center": "OpenWebinars",
+            "by": "Ceo de OpenWebinars Manuel Agudo",
+            "hours": "7",
+            "url":"openwebinars.net/cert/yrKb"
+        },
+        "sixth-certificate": {
+            "title": "jQuery",
+            "center": "OpenWebinars",
+            "by": "Ceo de OpenWebinars Manuel Agudo",
+            "hours": "12",
+            "url":"openwebinars.net/cert/LZJ0"
+        },
+        "seventh-certificate": {
+            "title": "TypeScript",
+            "center": "OpenWebinars",
+            "by": "Ceo de OpenWebinars Manuel Agudo",
+            "hours": "14",
+            "url":"openwebinars.net/cert/NbOY"
+        }
+    }
+}

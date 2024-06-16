@@ -1,0 +1,77 @@
+{
+    "index": {
+        "element-1": "Contact",
+        "element-2": "Experience",
+        "element-3": "Projects",
+        "element-4": "Titles",
+        "element-5": "Frameworks",
+        "element-6": "Technologies",
+        "element-7": "Soft Skills",
+        "element-8": "Languages",
+        "element-9": "Extras"
+    },
+    "profile": {
+        "rol": "FullStack Developer",
+        "description": "Specialized in software development with extensive experience in various technologies. Graduated with a Higher Degree in Web Application Development and an advanced level of English (B2/C1)."
+    },
+    "contact": {
+        "text": "You can contact me through:",
+        "btn-linkedin": "Go to Linkedin",
+        "btn-github": "Go to GitHub",
+        "btn-download-cv": "Download CV"
+    },
+    "experience": {
+        "text": "Experience",
+        "first-job": {
+            "title": "FontVenta",
+            "description": "At FontVenta, I actively participated in the development and maintenance of backend web applications designed for intranet page management. I used technologies such as .Net and Visual Basic to create robust solutions that improved operational efficiency and customer satisfaction.\n I collaborated closely with the frontend team to ensure seamless integration and worked with SQLServer Management Studio to handle complex databases. Additionally, I implemented continuous improvements and resolved technical issues, ensuring optimal performance.",
+            "frameworks": [
+                ".Net",
+                "SQLServer Management Studio",
+                "Visual Basic",
+                "JavaScript",
+                "Visual Studio"
+            ],
+            "url": ""
+        }
+    },
+    "projects": {
+        "text": "Projects",
+        "GymBros-Zone": {
+            "title": "GymBros Zone",
+            "description": "Development and maintenance of web applications for sales and customer management.",
+            "frameworks": [
+                "Vue 3",
+                "JavaScript",
+                "SQLServer Management Studio",
+                "Visual Studio"
+            ],
+            "url": "/Pictures/gymbroszone.png"
+        },
+        "PetPalace": {
+            "title": "PetPalace",
+            "description": "PetPalace is a web platform for animal adoption, where you can explore various pets in search of a home.\n Once registered, you can view each animal's profile and apply filters to search according to your preferences. Each profile includes a contact phone number to facilitate adoption.",
+            "frameworks": [
+                "Node.js",
+                "JavaScript",
+                "Firebase",
+                "Cordova",
+                "HTML",
+                "CSS"
+            ],
+            "url": "/Pictures/petpalace.png"
+        },
+        "DevCode": {
+            "title": "DevCode",
+            "description": "DevCode is a forum dedicated to programmers, designed to encourage interaction and knowledge sharing.\n In DevCode, users can post their experiences, resolve doubts, and actively collaborate on various programming-related topics.",
+            "frameworks": [
+                "PHP",
+                "MySQL",
+                "JavaScript",
+                "HTML",
+                "CSS"
+            ],
+            "url": "/Pictures/devcode.png"
+        }
+    }
+}

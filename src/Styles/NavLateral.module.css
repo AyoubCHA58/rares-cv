@@ -1,0 +1,61 @@
+.NavLateral {
+    position: fixed;
+    left: 0px;
+    /* Inicialmente oculto fuera del lado izquierdo */
+    bottom: 0;
+    height: calc(100% - 100px);
+    width: 170px;
+    background-color: var(--drak-blue);
+    border-right: 2px solid var(--light-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--light-white);
+    transition: left 0.3s ease;
+    z-index: 200;
+}
+.invisible{
+    height: 10vh;
+    width: 170px;
+    transition: width 0.3s ease;
+    background-color: red;
+    z-index: 2000;
+}
+.NavLateral_visible {
+    left: -170px;
+}
+.navInvisible{
+    
+    width: 0;
+}
+.nav_elemento {
+    padding: 10px;
+    width: 100%;
+}
+
+.email {
+    color: var(--light-white);
+    text-decoration: none;
+}
+
+.btn_mostrar {
+    z-index: 9999;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(24px, -50%) rotate(180deg);
+    font-weight: bold;
+    cursor: pointer;
+    /* Agregar cursor pointer para indicar que es clickable */
+}
+
+.rotate {
+    z-index: 9999;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(24px, -50%);
+    font-weight: bold;
+    cursor: pointer;
+    /* Agregar cursor pointer para indicar que es clickable */
+}
