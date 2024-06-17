@@ -1,7 +1,6 @@
 .NavLateral {
     position: fixed;
     left: 0px;
-    /* Inicialmente oculto fuera del lado izquierdo */
     bottom: 0;
     height: calc(100% - 100px);
     width: 170px;
@@ -14,20 +13,24 @@
     transition: left 0.3s ease;
     z-index: 200;
 }
-.invisible{
+
+.invisible {
     height: 10vh;
     width: 170px;
     transition: width 0.3s ease;
     background-color: red;
     z-index: 2000;
 }
+
 .NavLateral_visible {
     left: -170px;
 }
-.navInvisible{
-    
+
+.navInvisible {
+
     width: 0;
 }
+
 .nav_elemento {
     padding: 10px;
     width: 100%;
@@ -46,7 +49,6 @@
     transform: translate(24px, -50%) rotate(180deg);
     font-weight: bold;
     cursor: pointer;
-    /* Agregar cursor pointer para indicar que es clickable */
 }
 
 .rotate {
@@ -57,16 +59,72 @@
     transform: translate(24px, -50%);
     font-weight: bold;
     cursor: pointer;
-    /* Agregar cursor pointer para indicar que es clickable */
 }
-.NavLateral h1{
+
+.NavLateral h1 {
     margin-top: 10px;
 }
-.ind{
+
+.ind {
     font-size: 1.7em;
     color: var(--light-white);
     cursor: pointer;
 }
-.ind:hover{
+
+.ind:hover {
     text-decoration: underline;
+}
+
+.btn_hamburguesa_mostrar {
+    display: none;
+}
+
+@media(max-width: 937px) {
+    .invisible {
+        height: 0;
+        width: 0;
+    }
+
+    .btn_mostrar {
+        display: none;
+    }
+
+    .btn_hamburguesa_mostrar {
+        display: block;
+        z-index: 10000000;
+        position: fixed;
+        Left: 2%;
+        top: 50px;
+        transform: translate(24px, -50%) rotate(180deg);
+        font-weight: bold;
+        cursor: pointer;
+        color: var(--light-white);
+        font-size: 2em;
+    }
+    .NavLateral {
+        position: fixed;
+        left: 0px;
+        bottom: 0;
+        height: calc(100% - 100px);
+        width: 100%;
+        background-color: var(--drak-blue);
+        border-right: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: var(--light-white);
+        transition: top 0.3s ease;
+        z-index: 200;
+    }
+    .NavLateral_visible {
+        top: -100%;
+    }
+    .nav_elemento {
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .nav_elemento:hover{
+        background-color: var(--light-white);
+    }
 }

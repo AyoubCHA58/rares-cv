@@ -3,6 +3,11 @@
 import React, { useContext, useState } from 'react';
 import { LanguageContext } from '@/Scripts/LanguageContext';
 import styles from '@/Styles/NavLateral.module.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faBars);
 
 const NavLateral = () => {
     const [navVisible, setNavVisible] = useState(false);
@@ -12,19 +17,29 @@ const NavLateral = () => {
     const toggleNav = () => {
         setNavVisible(!navVisible);
         setRotateBtn(!rotateBtn);
-    };
+        if (navVisible && window.innerWidth <= 937) {
+            document.body.style.overflow = "hidden";
+        }else{
+            document.body.style.overflow = "visible";
 
+        }
+    };
+    const cerrarNav = () =>{
+        setNavVisible(false);
+    }
     return (
         <div className={styles.todoNav}>
+
+            <FontAwesomeIcon className={styles.btn_hamburguesa_mostrar} onClick={toggleNav} icon={faBars}></FontAwesomeIcon>
             <div className={styles.invisible + (navVisible ? ` ${styles.navInvisible}` : '')}></div>
             <nav className={styles.NavLateral + (navVisible ? ` ${styles.NavLateral_visible}` : '')}>
                 <h1>Rares</h1>
                 <a className={styles.email} href="mailto:rarescoder@gmail.com" target="_blank" rel="noopener noreferrer">rarescoder@gmail.com</a>
                 <div className={styles.nav_elemento}>
-                    <a href="#top" className={styles.ind}>{textos.index?.['element-1']}</a>
+                    <a href="#top" onClick={cerrarNav}  className={styles.ind}>{textos.index?.['element-1']}</a>
                 </div>
                 <div className={styles.nav_elemento}>
-                    <a href="#experience" className={styles.ind}>{textos.index?.['element-2']}</a>
+                    <a href="#experience"  onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-2']}</a>
                 </div>
                 <div className={styles.nav_elemento}>
                     <a href="#projects" className={styles.ind}>{textos.index?.['element-3']}</a>
