@@ -9,6 +9,8 @@ import Footer from '@/Componentes/Footer';
 import { LanguageContext } from '@/Scripts/LanguageContext';
 import styles from '@/Styles/Main.module.css';
 
+export const runtime = "edge";
+
 const Home = () => {
   const { textos } = useContext(LanguageContext);
 
