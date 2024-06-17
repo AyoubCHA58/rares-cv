@@ -21,10 +21,14 @@
         "btn-download-cv": "Download CV"
     },
     "experience": {
-        "text": "Experience",
+        "info": {
+            "title": "Experience",
+            "btn-url": "Visit",
+            "btn-code": "Code"
+        },
         "first-job": {
             "title": "FontVenta",
-            "description": "At FontVenta, I actively participated in the development and maintenance of backend web applications designed for intranet page management. I used technologies such as .Net and Visual Basic to create robust solutions that improved operational efficiency and customer satisfaction.\n I collaborated closely with the frontend team to ensure seamless integration and worked with SQLServer Management Studio to handle complex databases. Additionally, I implemented continuous improvements and resolved technical issues, ensuring optimal performance.",
+            "description": "At FontVenta, I actively participated in the development and maintenance of back-end web applications designed to manage intranet pages. I used technologies such as .Net and Visual Basic to create robust solutions that improved operational efficiency and customer satisfaction.\n I collaborated closely with the front-end team to ensure smooth integration and worked with SQLServer Management Studio to manage complex databases. Additionally, I implemented continuous improvements and resolved technical issues, ensuring optimal performance.",
             "frameworks": [
                 ".Net",
                 "SQLServer Management Studio",
@@ -32,21 +36,28 @@
                 "JavaScript",
                 "Visual Studio"
             ],
-            "url": ""
+            "url-image": ""
         }
     },
     "projects": {
-        "text": "Projects",
+        "info": {
+            "title": "Projects"
+        },
         "GymBros-Zone": {
             "title": "GymBros Zone",
-            "description": "Development and maintenance of web applications for sales and customer management.",
+            "description": "GymBros Zone is an innovative social network focused on the gym and fitness world, created to connect exercise enthusiasts and promote a healthy lifestyle.\n In GymBros Zone, users can share experiences, exchange knowledge, and achieve their goals.",
             "frameworks": [
                 "Vue 3",
+                "Node.js",
                 "JavaScript",
-                "SQLServer Management Studio",
-                "Visual Studio"
+                "Supabase",
+                "Ionic",
+                "HTML",
+                "CSS"
             ],
-            "url": "/Pictures/gymbroszone.png"
+            "url": "gymbroszone.com",
+            "url-github": "",
+            "url-image": "/Pictures/gymbroszone.png"
         },
         "PetPalace": {
             "title": "PetPalace",
@@ -59,11 +70,13 @@
                 "HTML",
                 "CSS"
             ],
-            "url": "/Pictures/petpalace.png"
+            "url": "",
+            "url-github": "",
+            "url-image": "/Pictures/petpalace.png"
         },
         "DevCode": {
             "title": "DevCode",
-            "description": "DevCode is a forum dedicated to programmers, designed to encourage interaction and knowledge sharing.\n In DevCode, users can post their experiences, resolve doubts, and actively collaborate on various programming-related topics.",
+            "description": "DevCode is a forum dedicated to programmers, designed to foster interaction and knowledge exchange.\n At DevCode, users can share their experiences, resolve doubts, and actively collaborate on various programming-related topics.",
             "frameworks": [
                 "PHP",
                 "MySQL",
@@ -71,7 +84,74 @@
                 "HTML",
                 "CSS"
             ],
-            "url": "/Pictures/devcode.png"
+            "url": "",
+            "url-github": "",
+            "url-image": "/Pictures/devcode.png"
+        }
+    },
+    "Titles": {
+        "text": "Titles",
+        "first-title": {
+            "title": "Higher Technician in Web Application Development",
+            "center": "IES Gaspar Melchor de Jovellanos",
+            "date": "2022-2024"
+        },
+        "second-title": {
+            "title": "Scientific-Technological Baccalaureate",
+            "center": "IES Dionisio Aguado",
+            "date": "2020-2022"
+        }
+    },
+    "certificates": {
+        "text": "Certificates",
+        "first-certificate": {
+            "title": "Advanced JavaScript",
+            "center": "OpenWebinars",
+            "by": "CEO of OpenWebinars Manuel Agudo",
+            "hours": "12",
+            "url": "openwebinars.net/cert/bG1t"
+        },
+        "second-certificate": {
+            "title": "Intermediate JavaScript",
+            "center": "OpenWebinars",
+            "by": "CEO of OpenWebinars Manuel Agudo",
+            "hours": "5",
+            "url": "openwebinars.net/cert/MQwk"
+        },
+        "third-certificate": {
+            "title": "Basic JavaScript",
+            "center": "OpenWebinars",
+            "by": "CEO of OpenWebinars Manuel Agudo",
+            "hours": "5",
+            "url": "openwebinars.net/cert/fLnV"
+        },
+        "fourth-certificate": {
+            "title": ".NET Framework",
+            "center": "OpenWebinars",
+            "by": "CEO of OpenWebinars Manuel Agudo",
+            "hours": "10",
+            "url": "openwebinars.net/cert/5YRU"
+        },
+        "fifth-certificate": {
+            "title": "SQL",
+            "center": "OpenWebinars",
+            "by": "CEO of OpenWebinars Manuel Agudo",
+            "hours": "7",
+            "url": "openwebinars.net/cert/yrKb"
+        },
+        "sixth-certificate": {
+            "title": "jQuery",
+            "center": "OpenWebinars",
+            "by": "CEO of OpenWebinars Manuel Agudo",
+            "hours": "12",
+            "url": "openwebinars.net/cert/LZJ0"
+        },
+        "seventh-certificate": {
+            "title": "TypeScript",
+            "center": "OpenWebinars",
+            "by": "CEO of OpenWebinars Manuel Agudo",
+            "hours": "14",
+            "url": "openwebinars.net/cert/NbOY"
         }
     }
 }
