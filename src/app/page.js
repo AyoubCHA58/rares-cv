@@ -27,6 +27,9 @@ const Home = () => {
       {projectKeys.map((key, index) => (
         <Proyectos key={key} textos={textos} projectKey={key} index={index} />
       ))}
+      {projectKeys.map((key, index) => (
+        <Proyectos key={key} textos={textos} projectKey={key} index={index} />
+      ))}
       {/* <Footer /> */}
     </main>
   );
