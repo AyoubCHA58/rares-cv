@@ -15,6 +15,9 @@ const Proyectos = ({ textos, projectKey, index }) => {
     const proyecto = textos.projects[projectKey];
     const esPar = index % 2 === 0;
     const url_image = proyecto['url-image'];
+    const url = proyecto.url;
+    console.log(url);
+    
     const renderDescription = () => {
         return { __html: proyecto.description?.replace(/\n/g, '<br /><br />') };
     };
@@ -34,7 +37,7 @@ const Proyectos = ({ textos, projectKey, index }) => {
                         </div>
                     </div>
                 </div>
-                <img src={url_image} alt="Foto CV" className={styles.fotocv} />
+                <a href={url} target="_blank" rel="noopener noreferrer"><img src={url_image} alt="Foto CV" className={styles.fotocv} /></a>
             </div>
         </div>
     );
