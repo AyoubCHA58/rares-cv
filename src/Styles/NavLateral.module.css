@@ -59,3 +59,14 @@
     cursor: pointer;
     /* Agregar cursor pointer para indicar que es clickable */
 }
+.NavLateral h1{
+    margin-top: 10px;
+}
+.ind{
+    font-size: 1.7em;
+    color: var(--light-white);
+    cursor: pointer;
+}
+.ind:hover{
+    text-decoration: underline;
+}

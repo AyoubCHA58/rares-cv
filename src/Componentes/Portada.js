@@ -7,6 +7,21 @@ import { faEnvelope, faPhone, faFileArrowDown } from '@fortawesome/free-solid-sv
 library.add(faPhone, faEnvelope, faLinkedin, faGithub, faWhatsapp, faFileArrowDown);
 
 const Portada = ({ textos }) => {
+    const handleDownloadAndOpen = (e) => {
+        e.preventDefault();
+        const fileUrl = 'Files/_CV_Rares-Andrei_Ana.pdf';
+
+        // Descargar el archivo
+        const link = document.createElement('a');
+        link.href = fileUrl;
+        link.download = '_CV_Rares-Andrei_Ana.pdf';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+
+        // Abrir en nueva ventana
+        window.open(fileUrl, '_blank');
+    };
     return (
         <div className={styles.portada}>
             <div className={styles.foto_nombre}>
@@ -27,18 +42,18 @@ const Portada = ({ textos }) => {
                     </div>
                 </div>
                 <div className={styles.info_derecha}>
-                    <button>
+                    <a href="Files/_CV_Rares-Andrei_Ana.pdf" onClick={handleDownloadAndOpen}>
                         {textos.contact?.['btn-download-cv']}
                         <FontAwesomeIcon className={styles.icon} icon={faFileArrowDown} />
-                    </button>
-                    <button>
+                    </a>
+                    <a href="https://www.linkedin.com/in/rares-andrei-ana/?original_referer=" target="_blank" rel="noopener noreferrer">
                         {textos.contact?.['btn-linkedin']}
                         <FontAwesomeIcon className={styles.icon} icon={faLinkedin} />
-                    </button>
-                    <button>
+                    </a>
+                    <a href='https://github.com/RaresTecno' target="_blank" rel="noopener noreferrer">
                         {textos.contact?.['btn-github']}
                         <FontAwesomeIcon className={styles.icon} icon={faSquareGithub } />
-                    </button>
+                    </a>
                 </div>
             </div>
         </div>

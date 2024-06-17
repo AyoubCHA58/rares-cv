@@ -98,7 +98,7 @@
     justify-content: space-evenly;
     align-items: center;
 }
-.info_derecha button{
+.info_derecha a{
     width: 30%;
     display: flex;
     align-items: center;
@@ -112,7 +112,7 @@
     cursor: pointer;
     transition: ease .6s ;
 }
-.info_derecha button:hover{
+.info_derecha a:hover{
     background-color: var(--drak-blue-hover);
     border: 2px solid black;
     box-shadow: 0px 0px 10px 2px var(--light-white);
