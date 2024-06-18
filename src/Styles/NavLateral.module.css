@@ -101,6 +101,7 @@
         color: var(--light-white);
         font-size: 2em;
     }
+
     .NavLateral {
         position: fixed;
         left: 0px;
@@ -116,15 +117,47 @@
         transition: top 0.3s ease;
         z-index: 200;
     }
+
     .NavLateral_visible {
         top: -100%;
     }
+
     .nav_elemento {
         padding: 10px;
         width: 100%;
         text-align: center;
     }
-    .nav_elemento:hover{
+
+    .nav_elemento:hover {
         background-color: var(--light-white);
+    }
+}
+
+@media(max-width: 625px) {
+
+    .btn_hamburguesa_mostrar {
+        Left: -1.2vw;
+    }
+}
+
+@media(max-width: 500px) {
+    .NavLateral {
+        height: calc(100% - 80px);
+    }
+
+    .btn_hamburguesa_mostrar {
+        Left: -3vw;
+        top: 40px;
+        font-size: 1.5em;
+    }
+}
+@media(max-width: 440px) {
+    .btn_hamburguesa_mostrar {
+        font-size: 1em;
+    }
+}
+@media(max-width: 350px) {
+    .btn_hamburguesa_mostrar {
+        Left: -5vw;
     }
 }

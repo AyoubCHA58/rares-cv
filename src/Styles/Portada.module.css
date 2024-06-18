@@ -154,7 +154,7 @@
     }
 
     .foto_nombre_derecha {
-        width: 100%;
+        width: 90%;
         align-items: center;
         margin: 0;
     }
@@ -195,7 +195,8 @@
     }
 
     .info_derecha {
-        width: 100%;
+        width: 90%;
+        justify-content: space-between;
     }
 
     .info_derecha a {
@@ -217,19 +218,19 @@
 
 @media(max-width: 625px) {
     .portada {
-        width: 100%;
+        width: 95%;
     }
 
     .info_izquierda {
         flex-direction: column;
     }
     .foto_nombre_derecha h1{
-        font-size: 9vw;
+        font-size: 10vw;
     } 
     .description{
     }
     .rol{
-        font-size: 7vw;
+        font-size: 8vw;
     }
 }
 @media(max-width: 500px) {
