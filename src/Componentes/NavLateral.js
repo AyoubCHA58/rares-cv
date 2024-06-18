@@ -17,11 +17,10 @@ const NavLateral = () => {
     const toggleNav = () => {
         setNavVisible(!navVisible);
         setRotateBtn(!rotateBtn);
-        if (navVisible && window.innerWidth <= 937) {
+        if (!navVisible && window.innerWidth <= 937) {
             document.body.style.overflow = "hidden";
         }else{
             document.body.style.overflow = "visible";
-
         }
     };
     const cerrarNav = () =>{
