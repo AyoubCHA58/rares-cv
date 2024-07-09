@@ -3,8 +3,8 @@
         "element-1": "Contacto",
         "element-2": "Experiencia",
         "element-3": "Proyectos",
-        "element-4": "Títulos",
-        "element-5": "Frameworks",
+        "element-4": "Formación",
+        "element-5": "Certificados",
         "element-6": "Tecnologías",
         "element-7": "Soft Skills",
         "element-8": "Idiomas",
@@ -41,7 +41,8 @@
     },
     "projects": {
         "info":{
-            "title": "Proyectos"
+            "title": "Proyectos",
+            "visit": "Visitar"
         },
         "GymBros-Zone": {
             "title": "GymBros Zone",
@@ -70,7 +71,7 @@
                 "HTML",
                 "CSS"
             ],
-            "url":"",
+            "url":"https://petpalace-raul-dominguez-robles.pages.dev/",
             "url-github":"",
             "url-image": "/Pictures/petpalace.png"
         },
@@ -89,8 +90,8 @@
             "url-image": "/Pictures/devcode.png"
         }
     },
-    "Titles": {
-        "text": "Títulos",
+    "titles": {
+        "text": "Formación",
         "first-title":{
             "title": "Tecnico Superior de desarrollo de Aplicaciones Web",
             "center": "IES Gaspar Melchor de Jovellanos",

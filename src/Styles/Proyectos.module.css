@@ -2,6 +2,7 @@
     width: 80%;
     display: flex;
     flex-direction: column;
+    height: fit-content;
 }
 
 .proyectos h2 {
@@ -78,7 +79,26 @@
 .frameworks span {
     margin: 5px 10px;
 }
-
+.btn_visitar{
+    background-color: var(--light-blue);
+    color: var(--light-white);
+    border: 2px solid var(--light-white);
+    border-radius: 10px;
+    padding: 7px;
+    cursor: pointer;
+    transition: ease .6s;
+    width: fit-content;
+    margin: 10px 0 0 0;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+.btn_visitar:hover {
+    border: 2px solid black;
+    box-shadow: 0px 0px 5px 2px var(--light-white);
+}
+.iconA{
+margin-right: 4px;
+}
 @media(max-width:900px) {
     .proyectos {
         width: 90%;

@@ -3,32 +3,32 @@
         "element-1": "Contact",
         "element-2": "Experience",
         "element-3": "Projects",
-        "element-4": "Titles",
-        "element-5": "Frameworks",
+        "element-4": "Education",
+        "element-5": "Certificates",
         "element-6": "Technologies",
         "element-7": "Soft Skills",
         "element-8": "Languages",
         "element-9": "Extras"
     },
     "profile": {
-        "rol": "FullStack Developer",
-        "description": "Specialized in software development with extensive experience in various technologies. Graduated with a Higher Degree in Web Application Development and an advanced level of English (B2/C1)."
+        "role": "FullStack Developer",
+        "description": "Specialized in software development with extensive experience in various technologies. Graduated with a Higher Degree in Web Application Development and proficient in English (B2/C1 level)."
     },
     "contact": {
         "text": "You can contact me through:",
-        "btn-linkedin": "Go to Linkedin",
+        "btn-linkedin": "Go to LinkedIn",
         "btn-github": "Go to GitHub",
         "btn-download-cv": "Download CV"
     },
     "experience": {
-        "info": {
+        "info":{
             "title": "Experience",
             "btn-url": "Visit",
             "btn-code": "Code"
         },
         "first-job": {
             "title": "FontVenta",
-            "description": "At FontVenta, I actively participated in the development and maintenance of back-end web applications designed to manage intranet pages. I used technologies such as .Net and Visual Basic to create robust solutions that improved operational efficiency and customer satisfaction.\n I collaborated closely with the front-end team to ensure smooth integration and worked with SQLServer Management Studio to manage complex databases. Additionally, I implemented continuous improvements and resolved technical issues, ensuring optimal performance.",
+            "description": "At FontVenta, I actively participated in the development and maintenance of backend web applications designed for intranet pages. I used technologies such as .Net and Visual Basic to create robust solutions that improved operational efficiency and customer satisfaction.\n I collaborated closely with the frontend team to ensure smooth integration and worked with SQLServer Management Studio to manage complex databases. Additionally, I implemented continuous improvements and resolved technical issues, ensuring optimal performance.",
             "frameworks": [
                 ".Net",
                 "SQLServer Management Studio",
@@ -40,12 +40,13 @@
         }
     },
     "projects": {
-        "info": {
-            "title": "Projects"
+        "info":{
+            "title": "Projects",
+            "visit": "Visit"
         },
         "GymBros-Zone": {
             "title": "GymBros Zone",
-            "description": "GymBros Zone is an innovative social network focused on the gym and fitness world, created to connect exercise enthusiasts and promote a healthy lifestyle.\n In GymBros Zone, users can share experiences, exchange knowledge, and achieve their goals.",
+            "description": "GymBros Zone is an innovative social network focused on the gym and fitness world, created to connect exercise enthusiasts and promote a healthy lifestyle.\n In GymBros Zone, users can share experiences, exchange knowledge, and achieve their fitness goals.",
             "frameworks": [
                 "Vue 3",
                 "Node.js",
@@ -55,13 +56,13 @@
                 "HTML",
                 "CSS"
             ],
-            "url":"https://gymbroszone.com",
+            "url": "https://gymbroszone.com",
             "url-github": "",
             "url-image": "/Pictures/gymbroszone.png"
         },
         "PetPalace": {
             "title": "PetPalace",
-            "description": "PetPalace is a web platform for animal adoption, where you can explore various pets in search of a home.\n Once registered, you can view each animal's profile and apply filters to search according to your preferences. Each profile includes a contact phone number to facilitate adoption.",
+            "description": "PetPalace is a web platform for animal adoption, where you can explore various pets in search of a home.\n Once registered, you can view each animal's profile and apply filters to search according to your preferences. Each profile includes a contact phone number for easier adoption.",
             "frameworks": [
                 "Node.js",
                 "JavaScript",
@@ -70,13 +71,13 @@
                 "HTML",
                 "CSS"
             ],
-            "url": "",
+            "url": "https://petpalace-raul-dominguez-robles.pages.dev/",
             "url-github": "",
             "url-image": "/Pictures/petpalace.png"
         },
         "DevCode": {
             "title": "DevCode",
-            "description": "DevCode is a forum dedicated to programmers, designed to foster interaction and knowledge exchange.\n At DevCode, users can share their experiences, resolve doubts, and actively collaborate on various programming-related topics.",
+            "description": "DevCode is a forum dedicated to programmers, designed to foster interaction and knowledge exchange.\n In DevCode, users can post their experiences, solve doubts, and actively collaborate on various programming-related topics.",
             "frameworks": [
                 "PHP",
                 "MySQL",
@@ -89,15 +90,15 @@
             "url-image": "/Pictures/devcode.png"
         }
     },
-    "Titles": {
-        "text": "Titles",
+    "titles": {
+        "text": "Education",
         "first-title": {
             "title": "Higher Technician in Web Application Development",
             "center": "IES Gaspar Melchor de Jovellanos",
             "date": "2022-2024"
         },
         "second-title": {
-            "title": "Scientific-Technological Baccalaureate",
+            "title": "Scientific and Technological Baccalaureate",
             "center": "IES Dionisio Aguado",
             "date": "2020-2022"
         }
@@ -107,49 +108,49 @@
         "first-certificate": {
             "title": "Advanced JavaScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "CEO of OpenWebinars, Manuel Agudo",
             "hours": "12",
             "url": "openwebinars.net/cert/bG1t"
         },
         "second-certificate": {
             "title": "Intermediate JavaScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "CEO of OpenWebinars, Manuel Agudo",
             "hours": "5",
             "url": "openwebinars.net/cert/MQwk"
         },
         "third-certificate": {
             "title": "Basic JavaScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "CEO of OpenWebinars, Manuel Agudo",
             "hours": "5",
             "url": "openwebinars.net/cert/fLnV"
         },
         "fourth-certificate": {
             "title": ".NET Framework",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "CEO of OpenWebinars, Manuel Agudo",
             "hours": "10",
             "url": "openwebinars.net/cert/5YRU"
         },
         "fifth-certificate": {
             "title": "SQL",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "CEO of OpenWebinars, Manuel Agudo",
             "hours": "7",
             "url": "openwebinars.net/cert/yrKb"
         },
         "sixth-certificate": {
             "title": "jQuery",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "CEO of OpenWebinars, Manuel Agudo",
             "hours": "12",
             "url": "openwebinars.net/cert/LZJ0"
         },
         "seventh-certificate": {
             "title": "TypeScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "CEO of OpenWebinars, Manuel Agudo",
             "hours": "14",
             "url": "openwebinars.net/cert/NbOY"
         }

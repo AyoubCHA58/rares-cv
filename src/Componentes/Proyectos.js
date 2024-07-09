@@ -3,9 +3,8 @@ import styles from '../Styles/Proyectos.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faLinkedin, faGithub, faWhatsapp, faSquareGithub } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope, faPhone, faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
-
-library.add(faPhone, faEnvelope, faLinkedin, faGithub, faWhatsapp, faFileArrowDown);
+import { faEnvelope, faPhone, faFileArrowDown, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons';
+library.add(faPhone, faEnvelope, faLinkedin, faGithub, faWhatsapp, faFileArrowDown, faArrowUpRightFromSquare);
 
 const Proyectos = ({ textos, projectKey, index }) => {
     
@@ -29,6 +28,12 @@ const Proyectos = ({ textos, projectKey, index }) => {
                         <h3>{proyecto.title}</h3>
                         <p dangerouslySetInnerHTML={renderDescription()} />
                     </div>
+
+                    {url && (
+                        <a className={styles.btn_visitar} href={url} target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon className={styles.iconA} icon={faArrowUpRightFromSquare} /> {textos.projects.info.visit}
+                        </a>
+                    )}
                     <div className={styles.todo_frameworks}>
                         <div className={styles.frameworks}>
                             {proyecto.frameworks?.map((framework, index) => (
@@ -37,7 +42,7 @@ const Proyectos = ({ textos, projectKey, index }) => {
                         </div>
                     </div>
                 </div>
-                <a href={url} target="_blank" rel="noopener noreferrer"><img src={url_image} alt="Foto CV" className={styles.fotocv} /></a>
+                <a href={url} target="_blank" rel="noopener noreferrer"><img src={url_image} alt="Foto Proyecto"  /></a>
             </div>
         </div>
     );

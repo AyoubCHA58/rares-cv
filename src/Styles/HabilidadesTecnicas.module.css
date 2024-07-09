@@ -1,0 +1,18 @@
+.habilidadesTecnicas {
+    width: 80%;
+    margin: 20px 0;
+}
+
+.habilidadesTecnicas ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.habilidadesTecnicas li {
+    margin-bottom: 10px;
+    background-color: var(--dark-blue);
+    color: var(--light-white);
+    border: 2px solid var(--light-white);
+    border-radius: 10px;
+    padding: 10px;
+}
