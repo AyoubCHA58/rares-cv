@@ -57,7 +57,7 @@
                 "CSS"
             ],
             "url": "https://gymbroszone.com",
-            "url-github": "",
+            "url-github": "https://github.com/RaresTecno/GymBrosZone",
             "url-image": "/Pictures/gymbroszone.png"
         },
         "PetPalace": {
@@ -72,7 +72,7 @@
                 "CSS"
             ],
             "url": "https://petpalace-raul-dominguez-robles.pages.dev/",
-            "url-github": "",
+            "url-github": "https://github.com/RaresTecno/PetPalace",
             "url-image": "/Pictures/petpalace.png"
         },
         "DevCode": {
@@ -86,7 +86,7 @@
                 "CSS"
             ],
             "url": "",
-            "url-github": "",
+            "url-github": "https://github.com/RaresTecno/DevCode",
             "url-image": "/Pictures/devcode.png"
         }
     },
