@@ -31,7 +31,7 @@ const Home = () => {
       {fromacionKeys.map((key, index) => (
         <Formacion key={key} textos={textos} fromacionKey={key} index={index} />
       ))}
-      <div className={styles.comming}>COMMING SON...</div>
+      <div className={styles.comming}>COMMING SOON...</div>
     </main>
   );
 };
