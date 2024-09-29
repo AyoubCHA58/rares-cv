@@ -42,9 +42,6 @@ const NavLateral = () => {
                     <a href="#experience"  onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-2']}</a>
                 </div>
                 <div className={styles.nav_elemento}>
-                    <a href="#projects" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-3']}</a>
-                </div>
-                <div className={styles.nav_elemento}>
                     <a href="#Education" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-4']}</a>
                 </div>
                 <div className={styles.nav_elemento}>

@@ -11,7 +11,7 @@ const Formacion = ({ textos, fromacionKey, index }) => {
       <div className={styles.entry}>
         <h3>{formacion.title}</h3>
         <p>{formacion.center}</p>
-        <p>{formacion.date}</p>
+        {/* <p>{formacion.date}</p> */}
       </div>
     </div>
   );
