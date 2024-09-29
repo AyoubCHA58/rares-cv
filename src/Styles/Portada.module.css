@@ -42,19 +42,21 @@
 .foto_nombre_derecha h1 {
     font-size: clamp(40px, 6vw, 80px);
     width: fit-content;
+    color: #fff;
 }
 
 .rol {
     font-size: clamp(34px, 4vw, 60px);
     width: fit-content;
     text-decoration: underline;
-
+    color: #fff;
 }
 
 .description {
     font-size: clamp(15px, 1.5vw, 40px);
     margin-top: 15px;
     max-width: max-content;
+    color: var(--white-grey);
 }
 
 .info {
@@ -69,6 +71,7 @@
     align-items: center;
     flex: 1;
     max-width: 300px;
+    color: var(--white-grey);
 }
 
 .info_izquierda::after {
@@ -78,6 +81,7 @@
     right: 0;
     height: 100%;
     border-right: 2px solid var(--light-white);
+    
 }
 
 .email,
@@ -99,10 +103,14 @@
     height: 25px;
     color: var(--light-white);
 }
+.iconTel {
+    height: 25px;
+    color: #004182;
+}
 
 .iconW {
     height: 30px;
-    color: var(--light-white);
+    color: #34ff01;
 }
 
 .info_derecha {
@@ -112,7 +120,7 @@
     align-items: center;
 }
 
-.info_derecha a {
+.info_derecha a{
     width: 30%;
     display: flex;
     align-items: center;
@@ -125,6 +133,18 @@
     border-radius: 20px;
     cursor: pointer;
     transition: ease .6s;
+}
+.info_derecha a:nth-child(1) {
+    border: 2px solid var(--light-white);
+    background-color: #d34600;
+}
+.info_derecha a:nth-child(2) {
+    border: 2px solid var(--light-white);
+    background-color: #004182;
+}
+.info_derecha a:nth-child(3) {
+    border: 2px solid var(--light-white);
+    background-color: #620296;
 }
 
 .info_derecha a:hover {

@@ -9,6 +9,8 @@
     border-bottom: 2px solid white;
     z-index: 300;
     height: 100px;
+    backdrop-filter: blur(10px);
+    background-color: #0b0b0b7d;
 }
 .todo_header{
     width: 80%;

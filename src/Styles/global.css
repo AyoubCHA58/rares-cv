@@ -4,11 +4,12 @@
     box-sizing: border-box;
 }
 :root{
-    --background: #305cb4;
-    --drak-blue: #021D54;
-    --light-blue: #0138a6;
-    --drak-blue-hover: #021d54b7;
-    --light-white:  #e6edfa;
+    --background: #1c1d1e;
+    --drak-blue: #0b0b0b;
+    --light-blue: #232323;
+    --drak-blue-hover: #049f07d7;
+    --light-white:  #e6f3fa;
+    --white-grey: #cdcccc;
 }
 body{
     background-color: var(--background);

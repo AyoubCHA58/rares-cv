@@ -72,7 +72,7 @@
     padding: 2px;
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--light-blue);
+    background-color: #d34600;
     color: rgb(255, 255, 255);
 }
 
@@ -80,7 +80,7 @@
     margin: 5px 10px;
 }
 .btn_visitar{
-    background-color: var(--light-blue);
+    background-color: var(--drak-blue-hover);
     color: var(--light-white);
     border: 2px solid var(--light-white);
     border-radius: 10px;
@@ -93,8 +93,9 @@
     font-weight: 500;
 }
 .btn_visitar:hover {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     box-shadow: 0px 0px 5px 2px var(--light-white);
+    
 }
 .iconA{
 margin-right: 4px;

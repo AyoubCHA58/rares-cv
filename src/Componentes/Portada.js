@@ -36,7 +36,7 @@ const Portada = ({ textos }) => {
                         <FontAwesomeIcon className={styles.icon} icon={faEnvelope} /> <h2 href="mailto:rarescoder@gmail.com" target="_blank" rel="noopener noreferrer">rarescoder@gmail.com </h2>
                     </div>
                     <div className={styles.phone}>
-                        <FontAwesomeIcon className={styles.icon} icon={faPhone} /> <h2 href="tel:+34643390001">+34 643 39 00 01</h2>  <FontAwesomeIcon className={styles.iconW} icon={faWhatsapp} />
+                        <FontAwesomeIcon className={styles.iconTel} icon={faPhone} /> <h2 href="tel:+34643390001">+34 643 39 00 01</h2>  <FontAwesomeIcon className={styles.iconW} icon={faWhatsapp} />
                     </div>
                 </div>
                 <div className={styles.info_derecha}>
