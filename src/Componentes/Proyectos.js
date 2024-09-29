@@ -22,7 +22,7 @@ const Proyectos = ({ textos, projectKey, index }) => {
     };
     return (
         <div className={styles.proyectos}>
-            <div className={esPar ? styles.pro : styles.proInv}>
+            <div className={esPar ? styles.proInv : styles.pro}>
                 <div className={styles.textos}>
                     <div className={styles.todo_textos}>
                         <h3>{proyecto.title}</h3>

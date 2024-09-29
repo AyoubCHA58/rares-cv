@@ -23,7 +23,7 @@ const Home = () => {
       <Portada textos={textos} />
       <h2 id="experience" className={styles.encabezado} style={{ scrollMarginTop: '100px' }}>{textos.experience?.info?.title}</h2>
       <Experiencia textos={textos} />
-      <h2 id="projects" className={styles.encabezado} style={{ scrollMarginTop: '100px' }}>{textos.projects?.info?.title}</h2>
+      {/* <h2 id="projects" className={styles.encabezado} style={{ scrollMarginTop: '100px' }}>{textos.projects?.info?.title}</h2> */}
       {projectKeys.map((key, index) => (
         <Proyectos key={key} textos={textos} projectKey={key} index={index} />
       ))}
