@@ -9,11 +9,11 @@ library.add(faPhone, faEnvelope, faLinkedin, faGithub, faWhatsapp, faFileArrowDo
 const Portada = ({ textos }) => {
     const handleDownloadAndOpen = (e) => {
         e.preventDefault();
-        const fileUrl = 'Files/_CV_Rares-Andrei_Ana.pdf';
+        const fileUrl = 'Files/_Rares-Andrei_Ana_CV.pdf';
 
         const link = document.createElement('a');
         link.href = fileUrl;
-        link.download = '_CV_Rares-Andrei_Ana.pdf';
+        link.download = '_Rares-Andrei_Ana_CV.pdf';
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);

@@ -12,7 +12,7 @@
     },
     "profile": {
         "rol": "FullStack Developer",
-        "description": "Specialized in software development with extensive experience in various technologies. Graduated with a Higher Degree in Web Application Development and proficient in English (B2/C1 level)."
+        "description": "Specialized in software development with extensive experience in various technologies. I stand out for my analytical ability, quick adaptation to new technologies, and focus on creative problem-solving. I work effectively under pressure, manage time efficiently, and promote team collaboration."
     },
     "contact": {
         "text": "You can contact me through:",
@@ -21,14 +21,14 @@
         "btn-download-cv": "Download CV"
     },
     "experience": {
-        "info":{
+        "info": {
             "title": "Experience",
             "btn-url": "Visit",
             "btn-code": "Code"
         },
         "first-job": {
             "title": "FontVenta",
-            "description": "At FontVenta, I actively participated in the development and maintenance of backend web applications designed for intranet pages. I used technologies such as .Net and Visual Basic to create robust solutions that improved operational efficiency and customer satisfaction.\n I collaborated closely with the frontend team to ensure smooth integration and worked with SQLServer Management Studio to manage complex databases. Additionally, I implemented continuous improvements and resolved technical issues, ensuring optimal performance.",
+            "description": "At FontVenta, I actively participated in the development and maintenance of back-end web applications designed to manage intranet pages. I used technologies like .Net and Visual Basic to create robust solutions that improved operational efficiency and customer satisfaction.\nI worked closely with the front-end team to ensure smooth integration and used SQLServer Management Studio to manage complex databases. Additionally, I implemented continuous improvements and resolved technical issues, ensuring optimal performance.",
             "frameworks": [
                 ".Net",
                 "SQLServer Management Studio",
@@ -40,13 +40,13 @@
         }
     },
     "projects": {
-        "info":{
+        "info": {
             "title": "Projects",
             "visit": "Visit"
         },
         "GymBros-Zone": {
             "title": "GymBros Zone",
-            "description": "GymBros Zone is an innovative social network focused on the gym and fitness world, created to connect exercise enthusiasts and promote a healthy lifestyle.\n In GymBros Zone, users can share experiences, exchange knowledge, and achieve their fitness goals.",
+            "description": "GymBros Zone is an innovative social network focused on the gym and fitness world, created to connect exercise enthusiasts and promote a healthy lifestyle.\nIn GymBros Zone, users can share experiences, exchange knowledge, and achieve their goals.",
             "frameworks": [
                 "Vue 3",
                 "Node.js",
@@ -62,7 +62,7 @@
         },
         "PetPalace": {
             "title": "PetPalace",
-            "description": "PetPalace is a web platform for animal adoption, where you can explore various pets in search of a home.\n Once registered, you can view each animal's profile and apply filters to search according to your preferences. Each profile includes a contact phone number for easier adoption.",
+            "description": "PetPalace is a web platform for pet adoption, where you can explore various pets looking for a home.\nOnce registered, you can view each animal's profile and apply filters according to your preferences. Each profile includes a contact phone number to facilitate adoption.",
             "frameworks": [
                 "Node.js",
                 "JavaScript",
@@ -77,7 +77,7 @@
         },
         "DevCode": {
             "title": "DevCode",
-            "description": "DevCode is a forum dedicated to programmers, designed to foster interaction and knowledge exchange.\n In DevCode, users can post their experiences, solve doubts, and actively collaborate on various programming-related topics.",
+            "description": "DevCode is a forum dedicated to programmers, designed to promote interaction and knowledge sharing.\nIn DevCode, users can post their experiences, resolve doubts, and actively collaborate on various programming-related topics.",
             "frameworks": [
                 "PHP",
                 "MySQL",
@@ -98,7 +98,7 @@
             "date": "2022-2024"
         },
         "second-title": {
-            "title": "Scientific and Technological Baccalaureate",
+            "title": "Scientific-Technological Baccalaureate",
             "center": "IES Dionisio Aguado",
             "date": "2020-2022"
         }
@@ -108,49 +108,49 @@
         "first-certificate": {
             "title": "Advanced JavaScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars, Manuel Agudo",
+            "by": "CEO of OpenWebinars Manuel Agudo",
             "hours": "12",
             "url": "openwebinars.net/cert/bG1t"
         },
         "second-certificate": {
             "title": "Intermediate JavaScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars, Manuel Agudo",
+            "by": "CEO of OpenWebinars Manuel Agudo",
             "hours": "5",
             "url": "openwebinars.net/cert/MQwk"
         },
         "third-certificate": {
             "title": "Basic JavaScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars, Manuel Agudo",
+            "by": "CEO of OpenWebinars Manuel Agudo",
             "hours": "5",
             "url": "openwebinars.net/cert/fLnV"
         },
         "fourth-certificate": {
             "title": ".NET Framework",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars, Manuel Agudo",
+            "by": "CEO of OpenWebinars Manuel Agudo",
             "hours": "10",
             "url": "openwebinars.net/cert/5YRU"
         },
         "fifth-certificate": {
             "title": "SQL",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars, Manuel Agudo",
+            "by": "CEO of OpenWebinars Manuel Agudo",
             "hours": "7",
             "url": "openwebinars.net/cert/yrKb"
         },
         "sixth-certificate": {
             "title": "jQuery",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars, Manuel Agudo",
+            "by": "CEO of OpenWebinars Manuel Agudo",
             "hours": "12",
             "url": "openwebinars.net/cert/LZJ0"
         },
         "seventh-certificate": {
             "title": "TypeScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars, Manuel Agudo",
+            "by": "CEO of OpenWebinars Manuel Agudo",
             "hours": "14",
             "url": "openwebinars.net/cert/NbOY"
         }
