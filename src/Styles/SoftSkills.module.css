@@ -1,18 +1,20 @@
-.softSkills {
-    width: 80%;
-    margin: 20px 0;
+.skills {
+    width: 80%; 
+    display: flex;
+    flex-direction: column; 
+    margin: 5px 0; 
 }
 
-.softSkills ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.softSkills li {
-    margin-bottom: 10px;
-    background-color: var(--dark-blue);
+.entry {
+    border: 2px solid var(--light-white); 
+    border-radius: 10px; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    background-color: var(--drak-blue);
     color: var(--light-white);
-    border: 2px solid var(--light-white);
-    border-radius: 10px;
-    padding: 10px;
 }
+
+.entry h3 {
+    margin-bottom: 4px;
+}
+

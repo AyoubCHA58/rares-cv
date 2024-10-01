@@ -1,23 +1,20 @@
 import React from 'react';
 import styles from '../Styles/SoftSkills.module.css';
 
-const SoftSkills = ({ habilidades }) => {
-    if (!habilidades || habilidades.length === 0) {
+const SoftSkills = ({ textos, skillKey, index }) => {
+    if (!textos.softSkills || !textos.softSkills[skillKey]) {
         return null;
     }
-
+    const skills = textos.softSkills[skillKey];
     return (
-        <div className={styles.softSkills}>
-            <h2>Soft Skills</h2>
-            <ul>
-                {habilidades.map((habilidad, index) => (
-                    <li key={index}>
-                        <strong>{habilidad.categoria}:</strong> {habilidad.detalle}
-                    </li>
-                ))}
-            </ul>
+        <div className={styles.skills}>
+          <div className={styles.entry}>
+            <h3>{skills.title}</h3>
+            <p>{skills.description}</p>
+            
+          </div>
         </div>
-    );
+      );
 };
 
 export default SoftSkills;

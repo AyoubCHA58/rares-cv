@@ -16,3 +16,40 @@
     font-weight: bolder;
     margin: 50px;
 }
+.star {
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid gold; /* Color de la estrella */
+    transform: rotate(35deg); /* Rotación para alinear la estrella */
+    margin: 20px; /* Espacio alrededor de la estrella */
+}
+
+.star:before {
+    content: '';
+    position: absolute;
+    left: -50px; /* Ajusta la posición */
+    top: 30px; /* Ajusta la posición */
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid gold; /* Parte superior de la estrella */
+    transform: rotate(-70deg); /* Rotación para crear la parte superior */
+}
+
+.star:after {
+    content: '';
+    position: absolute;
+    left: -15px; /* Ajusta la posición */
+    top: 50px; /* Ajusta la posición */
+    width: 0;
+    height: 0;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-top: 60px solid gold; /* Parte superior de la estrella */
+    transform: rotate(70deg); /* Rotación para crear la parte superior */
+}

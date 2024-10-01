@@ -47,18 +47,18 @@ const NavLateral = () => {
                 <div className={styles.nav_elemento}>
                     <a href="#technologies" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-6']}</a>
                 </div>
-                <div className={styles.nav_elemento}>
+                {/* <div className={styles.nav_elemento}>
                     <a href="#frameworks" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-5']}</a>
+                </div> */}
+                <div className={styles.nav_elemento}>
+                    <a href="#skills" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-7']}</a>
                 </div>
                 <div className={styles.nav_elemento}>
-                    <a href="#soft" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-7']}</a>
+                    <a href="#languages" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-8']}</a>
                 </div>
-                <div className={styles.nav_elemento}>
-                    <a href="#lang" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-8']}</a>
-                </div>
-                <div className={styles.nav_elemento}>
+                {/* <div className={styles.nav_elemento}>
                     <a href="#extras" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-9']}</a>
-                </div>
+                </div> */}
                 <svg className={styles.btn_mostrar + (rotateBtn ? ` ${styles.rotate}` : '')} onClick={toggleNav} xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path fill="currentColor" d="m9.216 7.619 4.204 4.204a.25.25 0 0 1 0 .354l-4.204 4.204a.75.75 0 0 0 1.06 1.061l4.205-4.204a1.75 1.75 0 0 0 0-2.475l-4.204-4.205a.75.75 0 0 0-1.061 1.06"></path></svg>
             </nav>
         </div>

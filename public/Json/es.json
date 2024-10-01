@@ -103,7 +103,7 @@
             "date": "2020-2022"
         }
     },
-    "tecnologies": {
+    "technologies": {
         "text": "Tecnologías",
         "list": [
             "JavaScript",
@@ -127,6 +127,29 @@
             "Ionic",
             "Git"
         ]
+    },
+    "softSkills": {
+        "text": "Soft Skills",
+        "first-skill": {
+            "title": "Capacidades Analíticas",
+            "description": "Pensamiento lógico y analítico, con alta capacidad para resolver problemas complejos y tomar decisiones."
+        },
+        "second-skill": {
+            "title": "Gestión del Tiempo",
+            "description": "Eficiente en la priorización de tareas y en la entrega de proyectos bajo presión, asegurando el cumplimiento de plazos."
+        },
+        "third-skill": {
+            "title": "Aprendizaje Rápido",
+            "description": "Capacidad para adaptarme rápidamente a nuevas tecnologías y entornos, aplicando lo aprendido de forma inmediata en proyectos."
+        },
+        "fourth-skill": {
+            "title": "Resolución de Problemas",
+            "description": "Enfoque creativo y estructurado para superar desafíos técnicos y optimizar procesos, logrando soluciones innovadoras."
+        },
+        "fifth-skill": {
+            "title": "Habilidades Interpersonales",
+            "description": "Trabajo en equipo, liderazgo colaborativo y escucha activa, fomentando un ambiente de trabajo positivo y productivo."
+        }
     },
     "certificates": {
         "text": "Certificates",
@@ -178,6 +201,26 @@
             "by": "Ceo de OpenWebinars Manuel Agudo",
             "hours": "14",
             "url": "openwebinars.net/cert/NbOY"
+        }
+    },
+    "languages": {
+        "text": "Idiomas",
+        "list": {
+            "first-language": {
+                "title": "Español",
+                "level": "Nativo",
+                "stars": "6"
+            },
+            "second-language": {
+                "title": "Rumano",
+                "level": "Nativo",
+                "stars": "6"
+            },
+            "third-language": {
+                "title": "Inglés",
+                "level": "B2/C1",
+                "stars": "4.5"
+            }
         }
     }
 }

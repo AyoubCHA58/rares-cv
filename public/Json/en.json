@@ -12,10 +12,10 @@
     },
     "profile": {
         "rol": "FullStack Developer",
-        "description": "Specialized in software development with extensive experience in various technologies. I stand out for my analytical ability, quick adaptation to new technologies, and focus on creative problem-solving. I work effectively under pressure, manage time efficiently, and promote team collaboration."
+        "description": "Specialized in software development with extensive experience in various technologies. I stand out for my analytical skills, quick adaptation to new technologies, and focus on creative problem-solving. I work effectively under pressure, manage my time efficiently, and promote teamwork."
     },
     "contact": {
-        "text": "You can contact me through:",
+        "text": "You can contact me via:",
         "btn-linkedin": "Go to LinkedIn",
         "btn-github": "Go to GitHub",
         "btn-download-cv": "Download CV"
@@ -28,10 +28,10 @@
         },
         "first-job": {
             "title": "FontVenta",
-            "description": "At FontVenta, I actively participated in the development and maintenance of back-end web applications designed to manage intranet pages. I used technologies like .Net and Visual Basic to create robust solutions that improved operational efficiency and customer satisfaction.\nI worked closely with the front-end team to ensure smooth integration and used SQLServer Management Studio to manage complex databases. Additionally, I implemented continuous improvements and resolved technical issues, ensuring optimal performance.",
+            "description": "At FontVenta, I actively participated in the development and maintenance of back-end web applications designed to manage intranet pages. I used technologies like .Net and Visual Basic to create robust solutions that improved operational efficiency and customer satisfaction.\nI closely collaborated with the front-end team to ensure seamless integration and worked with SQL Server Management Studio to manage complex databases. Additionally, I implemented continuous improvements and solved technical problems, ensuring optimal performance.",
             "frameworks": [
                 ".Net",
-                "SQLServer Management Studio",
+                "SQL Server Management Studio",
                 "Visual Basic",
                 "JavaScript",
                 "Visual Studio"
@@ -62,7 +62,7 @@
         },
         "PetPalace": {
             "title": "PetPalace",
-            "description": "PetPalace is a web platform for pet adoption, where you can explore various pets looking for a home.\nOnce registered, you can view each animal's profile and apply filters according to your preferences. Each profile includes a contact phone number to facilitate adoption.",
+            "description": "PetPalace is a web adoption platform where you can explore various pets looking for a home.\nOnce registered, you can view each animal's profile and apply filters to search according to your preferences. Each profile includes a contact number to facilitate adoption.",
             "frameworks": [
                 "Node.js",
                 "JavaScript",
@@ -77,7 +77,7 @@
         },
         "DevCode": {
             "title": "DevCode",
-            "description": "DevCode is a forum dedicated to programmers, designed to promote interaction and knowledge sharing.\nIn DevCode, users can post their experiences, resolve doubts, and actively collaborate on various programming-related topics.",
+            "description": "DevCode is a forum dedicated to programmers, designed to enhance interaction and knowledge exchange.\nIn DevCode, users can post their experiences, solve doubts, and actively collaborate on various programming-related topics.",
             "frameworks": [
                 "PHP",
                 "MySQL",
@@ -103,8 +103,8 @@
             "date": "2020-2022"
         }
     },
-    "tecnologies": {
-        "text": "Tecnologías",
+    "technologies": {
+        "text": "Technologies",
         "list": [
             "JavaScript",
             "Node.js",
@@ -128,56 +128,99 @@
             "Git"
         ]
     },
+    "softSkills": {
+        "text": "Soft Skills",
+        "first-skill": {
+            "title": "Analytical Skills",
+            "description": "Logical and analytical thinking, with a high capacity to solve complex problems and make decisions."
+        },
+        "second-skill": {
+            "title": "Time Management",
+            "description": "Efficient in prioritizing tasks and delivering projects under pressure, ensuring deadlines are met."
+        },
+        "third-skill": {
+            "title": "Fast Learning",
+            "description": "Ability to quickly adapt to new technologies and environments, applying what I've learned immediately in projects."
+        },
+        "fourth-skill": {
+            "title": "Problem Solving",
+            "description": "Creative and structured approach to overcoming technical challenges and optimizing processes, achieving innovative solutions."
+        },
+        "fifth-skill": {
+            "title": "Interpersonal Skills",
+            "description": "Teamwork, collaborative leadership, and active listening, fostering a positive and productive work environment."
+        }
+    },
     "certificates": {
         "text": "Certificates",
         "first-certificate": {
             "title": "Advanced JavaScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "Ceo of OpenWebinars Manuel Agudo",
             "hours": "12",
             "url": "openwebinars.net/cert/bG1t"
         },
         "second-certificate": {
             "title": "Intermediate JavaScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "Ceo of OpenWebinars Manuel Agudo",
             "hours": "5",
             "url": "openwebinars.net/cert/MQwk"
         },
         "third-certificate": {
             "title": "Basic JavaScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "Ceo of OpenWebinars Manuel Agudo",
             "hours": "5",
             "url": "openwebinars.net/cert/fLnV"
         },
         "fourth-certificate": {
             "title": ".NET Framework",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "Ceo of OpenWebinars Manuel Agudo",
             "hours": "10",
             "url": "openwebinars.net/cert/5YRU"
         },
         "fifth-certificate": {
             "title": "SQL",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "Ceo of OpenWebinars Manuel Agudo",
             "hours": "7",
             "url": "openwebinars.net/cert/yrKb"
         },
         "sixth-certificate": {
             "title": "jQuery",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "Ceo of OpenWebinars Manuel Agudo",
             "hours": "12",
             "url": "openwebinars.net/cert/LZJ0"
         },
         "seventh-certificate": {
             "title": "TypeScript",
             "center": "OpenWebinars",
-            "by": "CEO of OpenWebinars Manuel Agudo",
+            "by": "Ceo of OpenWebinars Manuel Agudo",
             "hours": "14",
             "url": "openwebinars.net/cert/NbOY"
+        }
+    },
+    "languages": {
+        "text": "Languages",
+        "list": {
+            "first-language": {
+                "title": "Spanish",
+                "level": "Native",
+                "stars": "6"
+            },
+            "second-language": {
+                "title": "Romanian",
+                "level": "Native",
+                "stars": "6"
+            },
+            "third-language": {
+                "title": "English",
+                "level": "B2/C1",
+                "stars": "4.5"
+            }
         }
     }
 }
