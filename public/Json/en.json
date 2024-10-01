@@ -103,6 +103,31 @@
             "date": "2020-2022"
         }
     },
+    "tecnologies": {
+        "text": "Tecnologías",
+        "list": [
+            "JavaScript",
+            "Node.js",
+            "Vue.js",
+            "React",
+            "Angular",
+            "HTML5",
+            "CSS3",
+            "TypeScript",
+            "PHP",
+            "Python",
+            "Django",
+            "Java",
+            "C#",
+            ".NET",
+            "SQL",
+            "PostgreSQL",
+            "MongoDB",
+            "AWS",
+            "Ionic",
+            "Git"
+        ]
+    },
     "certificates": {
         "text": "Certificates",
         "first-certificate": {

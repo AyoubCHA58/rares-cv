@@ -7,6 +7,7 @@ import Proyectos from '@/Componentes/Proyectos';
 import { LanguageContext } from '@/Scripts/LanguageContext';
 import styles from '@/Styles/Main.module.css';
 import Formacion from '@/Componentes/Formacion';
+import Tecnologias from '@/Componentes/Tecnologias';
 
 const Home = () => {
   const { textos } = useContext(LanguageContext);
@@ -17,6 +18,7 @@ const Home = () => {
 
   const projectKeys = Object.keys(textos.projects).filter(key => key !== 'info');
   const fromacionKeys = Object.keys(textos.titles).filter(key => key !== 'text');
+  const tecnologiasKeys = Object.keys(textos.tecnologies).filter(key => key !== 'text');
   return (
     <main className={styles.main}>
 
@@ -31,7 +33,12 @@ const Home = () => {
       {fromacionKeys.map((key, index) => (
         <Formacion key={key} textos={textos} fromacionKey={key} index={index} />
       ))}
-      <div className={styles.comming}>COMMING SOON...</div>
+      <h2 id="technologies" className={styles.encabezado} style={{ scrollMarginTop: '100px' }}>{textos.tecnologies?.text}</h2>
+      {tecnologiasKeys.map((key, index) => (
+        <Tecnologias key={key} textos={textos} tecnologiasKey={key} index={index} />
+      ))}
+
+      <div className={styles.comming}>COMING SOON...</div>
     </main>
   );
 };

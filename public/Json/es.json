@@ -21,7 +21,7 @@
         "btn-download-cv": "Descargar CV"
     },
     "experience": {
-        "info":{
+        "info": {
             "title": "Experiencia",
             "btn-url": "Visitar",
             "btn-code": "Código"
@@ -40,7 +40,7 @@
         }
     },
     "projects": {
-        "info":{
+        "info": {
             "title": "Proyectos",
             "visit": "Visitar"
         },
@@ -56,8 +56,8 @@
                 "HTML",
                 "CSS"
             ],
-            "url":"https://gymbroszone.com",
-            "url-github":"https://github.com/RaresTecno/GymBrosZone",
+            "url": "https://gymbroszone.com",
+            "url-github": "https://github.com/RaresTecno/GymBrosZone",
             "url-image": "/Pictures/gymbroszone.png"
         },
         "PetPalace": {
@@ -71,8 +71,8 @@
                 "HTML",
                 "CSS"
             ],
-            "url":"https://petpalace-raul-dominguez-robles.pages.dev/",
-            "url-github":"https://github.com/RaresTecno/PetPalace",
+            "url": "https://petpalace-raul-dominguez-robles.pages.dev/",
+            "url-github": "https://github.com/RaresTecno/PetPalace",
             "url-image": "/Pictures/petpalace.png"
         },
         "DevCode": {
@@ -85,74 +85,99 @@
                 "HTML",
                 "CSS"
             ],
-            "url":"",
-            "url-github":"https://github.com/RaresTecno/DevCode",
+            "url": "",
+            "url-github": "https://github.com/RaresTecno/DevCode",
             "url-image": "/Pictures/devcode.png"
         }
     },
     "titles": {
         "text": "Formación",
-        "first-title":{
+        "first-title": {
             "title": "Tecnico Superior de desarrollo de Aplicaciones Web",
             "center": "IES Gaspar Melchor de Jovellanos",
             "date": "2022-2024"
         },
-        "second-title":{
+        "second-title": {
             "title": "Bachillerato Científico-Tecnológico",
             "center": "IES Dionisio Aguado",
             "date": "2020-2022"
         }
     },
-"certificates": {
+    "tecnologies": {
+        "text": "Tecnologías",
+        "list": [
+            "JavaScript",
+            "Node.js",
+            "Vue.js",
+            "React",
+            "Angular",
+            "HTML5",
+            "CSS3",
+            "TypeScript",
+            "PHP",
+            "Python",
+            "Django",
+            "Java",
+            "C#",
+            ".NET",
+            "SQL",
+            "PostgreSQL",
+            "MongoDB",
+            "AWS",
+            "Ionic",
+            "Git"
+        ]
+    },
+    "certificates": {
         "text": "Certificates",
         "first-certificate": {
             "title": "JavaScript Avanzado",
             "center": "OpenWebinars",
             "by": "Ceo de OpenWebinars Manuel Agudo",
             "hours": "12",
-            "url":"openwebinars.net/cert/bG1t"
+            "url": "openwebinars.net/cert/bG1t"
         },
         "second-certificate": {
             "title": "JavaScript Intermedio",
             "center": "OpenWebinars",
             "by": "Ceo de OpenWebinars Manuel Agudo",
             "hours": "5",
-            "url":"openwebinars.net/cert/MQwk"
+            "url": "openwebinars.net/cert/MQwk"
         },
         "third-certificate": {
             "title": "JavaScript Básico",
             "center": "OpenWebinars",
             "by": "Ceo de OpenWebinars Manuel Agudo",
             "hours": "5",
-            "url":"openwebinars.net/cert/fLnV"
+            "url": "openwebinars.net/cert/fLnV"
         },
         "fourth-certificate": {
             "title": ".NET Framework",
             "center": "OpenWebinars",
             "by": "Ceo de OpenWebinars Manuel Agudo",
             "hours": "10",
-            "url":"openwebinars.net/cert/5YRU"
+            "url": "openwebinars.net/cert/5YRU"
         },
         "fifth-certificate": {
             "title": "SQL",
             "center": "OpenWebinars",
             "by": "Ceo de OpenWebinars Manuel Agudo",
             "hours": "7",
-            "url":"openwebinars.net/cert/yrKb"
+            "url": "openwebinars.net/cert/yrKb"
         },
         "sixth-certificate": {
             "title": "jQuery",
             "center": "OpenWebinars",
             "by": "Ceo de OpenWebinars Manuel Agudo",
             "hours": "12",
-            "url":"openwebinars.net/cert/LZJ0"
+            "url": "openwebinars.net/cert/LZJ0"
         },
         "seventh-certificate": {
             "title": "TypeScript",
             "center": "OpenWebinars",
             "by": "Ceo de OpenWebinars Manuel Agudo",
             "hours": "14",
-            "url":"openwebinars.net/cert/NbOY"
+            "url": "openwebinars.net/cert/NbOY"
         }
     }
 }

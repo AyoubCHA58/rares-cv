@@ -45,10 +45,10 @@ const NavLateral = () => {
                     <a href="#Education" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-4']}</a>
                 </div>
                 <div className={styles.nav_elemento}>
-                    <a href="#frameworks" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-5']}</a>
+                    <a href="#technologies" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-6']}</a>
                 </div>
                 <div className={styles.nav_elemento}>
-                    <a href="#technologies" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-6']}</a>
+                    <a href="#frameworks" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-5']}</a>
                 </div>
                 <div className={styles.nav_elemento}>
                     <a href="#soft" onClick={cerrarNav} className={styles.ind}>{textos.index?.['element-7']}</a>
