@@ -28,7 +28,7 @@ a{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: black;
+    background-color: var(--drak-blue);
     color: white;
     font-size: 3rem; /* Ajusta el tamaño según lo necesites */
     font-weight: bold;
