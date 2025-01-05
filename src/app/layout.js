@@ -13,9 +13,10 @@ export default function RootLayout({ children }) {
     <html lang="es">
       <LanguageProvider>
         <body>
-          <Header />
+          {/* <Header />
           <NavLateral />
-          {children}
+          {children} */}
+            <div className="maintenance">En mantenimiento</div>
         </body>
       </LanguageProvider>
     </html>

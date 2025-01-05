@@ -21,4 +21,17 @@ p{
 }
 a{
     text-decoration: none;
-}
+}´
+/* Styles/global.css */
+.maintenance {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-size: 3rem; /* Ajusta el tamaño según lo necesites */
+    font-weight: bold;
+    text-align: center;
+  }
+  
